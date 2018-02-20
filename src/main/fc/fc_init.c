@@ -364,6 +364,8 @@ void init(void)
     timerInit();  // timer must be initialized before any channel is allocated
 
 #ifdef TEST_SOUND
+    void testSound();
+
     testSound();
 #endif
 
